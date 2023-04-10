@@ -13,6 +13,7 @@ import 'package:siddikbhai_c/Sobdosomuh/option_one.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:siddikbhai_c/KothonpokThon/fifth_option.dart';
 import 'package:siddikbhai_c/Sobdosomuh/sobdo_option.dart';
+import 'package:siddikbhai_c/SplashScreen.dart';
 import 'package:siddikbhai_c/Upazila/sixth_option.dart';
 import 'package:siddikbhai_c/probad/sobdo_option.dart';
 import 'package:siddikbhai_c/test.dart';
@@ -195,7 +196,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home:Home() ,
+      home:SplashPage() ,
 
       debugShowCheckedModeBanner: false,
     );
